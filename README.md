@@ -1,6 +1,6 @@
 # Headcount Labs plugins for Cursor
 
-Seven read-only MCP servers built on public data. None needs an account or API key.
+Eight plugins: one per index, plus one that connects to all of them. All read-only, built on public data, no account or API key.
 
 | Plugin | MCP server |
 |---|---|
