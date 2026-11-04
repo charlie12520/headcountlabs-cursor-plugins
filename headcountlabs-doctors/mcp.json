@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "headcountlabs-doctors": {
+      "url": "https://doctors-mcp.headcountlabs.com/mcp/public/doctors"
+    }
+  }
+}

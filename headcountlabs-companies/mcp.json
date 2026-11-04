@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "headcountlabs-companies": {
+      "url": "https://companies-mcp.headcountlabs.com/mcp/public/companies"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "headcountlabs-job-search": {
+      "url": "https://api.headcountlabs.com/mcp/public"
+    }
+  }
+}

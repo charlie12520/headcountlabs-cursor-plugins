@@ -1,0 +1,20 @@
+{
+  "name": "headcountlabs-prices",
+  "displayName": "Headcount Labs Prices",
+  "version": "1.0.0",
+  "description": "Grocery and household products from Open Food Facts and USDA, with dated shelf-price observations from Open Prices and BLS benchmarks. Find products by name or brand, look one up by barcode (UPC, EAN or GTIN), find the cheapest recently observed prices with store and date, find stores with prices near a point, and get price statistics. Prices are past observations, not live shelf prices. Read-only, no account or API key. Data under ODbL from Open Food Facts, Open Prices and OpenStreetMap contributors.",
+  "author": {
+    "name": "Headcount Labs",
+    "email": "charlestang@headcountlabs.com"
+  },
+  "homepage": "https://headcountlabs.com",
+  "repository": "https://github.com/charlie12520/headcountlabs-cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "headcount-labs",
+    "mcp",
+    "open-data",
+    "prices"
+  ],
+  "logo": "assets/logo.png"
+}

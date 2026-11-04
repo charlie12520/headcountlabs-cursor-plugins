@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "headcountlabs-public-services": {
+      "url": "https://public-services-mcp.headcountlabs.com/mcp/public/public-services"
+    }
+  }
+}

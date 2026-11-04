@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "headcountlabs-places": {
+      "url": "https://places-mcp.headcountlabs.com/mcp/public/places"
+    }
+  }
+}

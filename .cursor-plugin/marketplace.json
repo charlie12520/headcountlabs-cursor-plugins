@@ -1,0 +1,48 @@
+{
+  "name": "headcountlabs",
+  "owner": {
+    "name": "Headcount Labs",
+    "email": "charlestang@headcountlabs.com"
+  },
+  "metadata": {
+    "description": "Headcount Labs MCP servers: jobs, companies, public services, prices, places, events and doctors from public data. Read-only, no account or API key.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "headcountlabs-job-search",
+      "source": "headcountlabs-job-search",
+      "description": "Search current job postings collected from public job boards and company career sites; every job links to its original posting. Tools: search_jobs, get_job, count_jobs (live counts, can group by employer, city, state and more), salary_range, market_lookup and market_breakdown (pay percentiles and job counts from a daily U.S. snapshot), market_dimensions, list_fields and search_docs. Read-only. This keyless endpoint needs no account or API key; one search shows up to 250 jobs, up to 50 per page."
+    },
+    {
+      "name": "headcountlabs-companies",
+      "source": "headcountlabs-companies",
+      "description": "Look up U.S. companies from public records: SEC EDGAR, GLEIF, USAspending, Wikidata and state business registries. Find a company by name or web domain, get one by ticker, CIK, LEI, Wikidata ID or domain, and list its direct parents and subsidiaries from GLEIF and Wikidata ownership links. Every record names its sources, and get_company_record returns the full source-linked record. Read-only, no account or API key. Preview data: coverage is partial and unknown fields are null."
+    },
+    {
+      "name": "headcountlabs-public-services",
+      "source": "headcountlabs-public-services",
+      "description": "Find where to get public services in the U.S.: food pantries, SNAP and WIC sites, community health centers, Head Start, HUD housing counselors, senior and city service centers near a point, with address, phone, hours, requirements and languages where known. Also look up government programs by name or assistance listing number (10.551 is SNAP) and the agencies that run them. Directory facts only; it never decides eligibility. Read-only, no account or API key. Preview data with sources on every record."
+    },
+    {
+      "name": "headcountlabs-prices",
+      "source": "headcountlabs-prices",
+      "description": "Grocery and household products from Open Food Facts and USDA, with dated shelf-price observations from Open Prices and BLS benchmarks. Find products by name or brand, look one up by barcode (UPC, EAN or GTIN), find the cheapest recently observed prices with store and date, find stores with prices near a point, and get price statistics. Prices are past observations, not live shelf prices. Read-only, no account or API key. Data under ODbL from Open Food Facts, Open Prices and OpenStreetMap contributors."
+    },
+    {
+      "name": "headcountlabs-places",
+      "source": "headcountlabs-places",
+      "description": "Find shops, restaurants, cafes, pharmacies, libraries and other places near a point in the 20 largest U.S. cities, with address, phone, website, weekly hours and open-now when hours are known. Filter by name, brand, category or open time, and count chain locations versus independents nearby. Data from OpenStreetMap contributors (ODbL), Overture Maps, All the Places, Foursquare OS Places and city open data; each record names its sources. Read-only, no account or API key."
+    },
+    {
+      "name": "headcountlabs-events",
+      "source": "headcountlabs-events",
+      "description": "Find public events in large U.S. cities from venue, city, library, university and community calendars, by city or point, time window (today, tonight, this weekend, next 7 days or dates), free or paid, and category. Get one event with venue, price and source link, see the next dates of a recurring series, and count what is on in a window. Times should be checked at the source. Read-only, no account or API key. Preview data: coverage is partial."
+    },
+    {
+      "name": "headcountlabs-doctors",
+      "source": "headcountlabs-doctors",
+      "description": "Find U.S. doctors, nurse practitioners, dentists and other clinicians near a point by plain specialty words, or by name or NPI, from public CMS data (NPPES and Medicare). Also find Medicare-certified hospitals and nursing homes with certified beds and CMS star rating, a clinician's hospital and group affiliations, and specialty counts for an area. Directory facts only, not medical advice; whether a doctor takes new patients is not known. Read-only, no account or API key."
+    }
+  ]
+}

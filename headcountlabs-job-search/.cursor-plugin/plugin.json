@@ -1,0 +1,20 @@
+{
+  "name": "headcountlabs-job-search",
+  "displayName": "Headcount Labs Job Search",
+  "version": "1.0.0",
+  "description": "Search current job postings collected from public job boards and company career sites; every job links to its original posting. Tools: search_jobs, get_job, count_jobs (live counts, can group by employer, city, state and more), salary_range, market_lookup and market_breakdown (pay percentiles and job counts from a daily U.S. snapshot), market_dimensions, list_fields and search_docs. Read-only. This keyless endpoint needs no account or API key; one search shows up to 250 jobs, up to 50 per page.",
+  "author": {
+    "name": "Headcount Labs",
+    "email": "charlestang@headcountlabs.com"
+  },
+  "homepage": "https://headcountlabs.com",
+  "repository": "https://github.com/charlie12520/headcountlabs-cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "headcount-labs",
+    "mcp",
+    "open-data",
+    "job-search"
+  ],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "headcountlabs-events",
+  "displayName": "Headcount Labs Events",
+  "version": "1.0.0",
+  "description": "Find public events in large U.S. cities from venue, city, library, university and community calendars, by city or point, time window (today, tonight, this weekend, next 7 days or dates), free or paid, and category. Get one event with venue, price and source link, see the next dates of a recurring series, and count what is on in a window. Times should be checked at the source. Read-only, no account or API key. Preview data: coverage is partial.",
+  "author": {
+    "name": "Headcount Labs",
+    "email": "charlestang@headcountlabs.com"
+  },
+  "homepage": "https://headcountlabs.com",
+  "repository": "https://github.com/charlie12520/headcountlabs-cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "headcount-labs",
+    "mcp",
+    "open-data",
+    "events"
+  ],
+  "logo": "assets/logo.png"
+}

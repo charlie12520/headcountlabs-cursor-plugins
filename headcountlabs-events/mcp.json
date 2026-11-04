@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "headcountlabs-events": {
+      "url": "https://events-mcp.headcountlabs.com/mcp/public/events"
+    }
+  }
+}

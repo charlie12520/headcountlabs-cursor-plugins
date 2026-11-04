@@ -1,0 +1,20 @@
+{
+  "name": "headcountlabs-doctors",
+  "displayName": "Headcount Labs Doctors",
+  "version": "1.0.0",
+  "description": "Find U.S. doctors, nurse practitioners, dentists and other clinicians near a point by plain specialty words, or by name or NPI, from public CMS data (NPPES and Medicare). Also find Medicare-certified hospitals and nursing homes with certified beds and CMS star rating, a clinician's hospital and group affiliations, and specialty counts for an area. Directory facts only, not medical advice; whether a doctor takes new patients is not known. Read-only, no account or API key.",
+  "author": {
+    "name": "Headcount Labs",
+    "email": "charlestang@headcountlabs.com"
+  },
+  "homepage": "https://headcountlabs.com",
+  "repository": "https://github.com/charlie12520/headcountlabs-cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "headcount-labs",
+    "mcp",
+    "open-data",
+    "doctors"
+  ],
+  "logo": "assets/logo.png"
+}
