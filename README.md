@@ -4,6 +4,7 @@ Seven read-only MCP servers built on public data. None needs an account or API k
 
 | Plugin | MCP server |
 |---|---|
+| [Headcount Labs: All Indexes](headcountlabs-all/README.md) | `https://mcp.theinternetindex.org/mcp` (all indexes in one server) |
 | [Headcount Labs Job Search](headcountlabs-job-search/README.md) | `https://api.headcountlabs.com/mcp/public` |
 | [Headcount Labs Companies](headcountlabs-companies/README.md) | `https://companies-mcp.headcountlabs.com/mcp/public/companies` |
 | [Headcount Labs Public Services](headcountlabs-public-services/README.md) | `https://public-services-mcp.headcountlabs.com/mcp/public/public-services` |

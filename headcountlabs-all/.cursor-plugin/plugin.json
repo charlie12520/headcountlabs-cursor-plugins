@@ -1,0 +1,26 @@
+{
+  "name": "headcountlabs-all",
+  "displayName": "Headcount Labs: All Indexes",
+  "version": "1.0.0",
+  "description": "Every Headcount Labs index through one MCP server: current job postings with live counts and pay ranges, U.S. companies with parent and subsidiary links, public services and government programs, grocery products and prices, places with hours, public events, doctors and Medicare facilities, and inspections, in one connection with 54 tools. Use this instead of installing the single-index plugins one by one. Every record links to its source. Read-only, no account or API key.",
+  "author": {
+    "name": "Headcount Labs",
+    "email": "charlestang@headcountlabs.com"
+  },
+  "homepage": "https://headcountlabs.com",
+  "repository": "https://github.com/charlie12520/headcountlabs-cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "headcount-labs",
+    "mcp",
+    "open-data",
+    "job-search",
+    "companies",
+    "doctors",
+    "places",
+    "events",
+    "prices",
+    "public-services"
+  ],
+  "logo": "assets/logo.png"
+}

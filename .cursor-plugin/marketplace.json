@@ -5,10 +5,15 @@
     "email": "charlestang@headcountlabs.com"
   },
   "metadata": {
-    "description": "Headcount Labs MCP servers: jobs, companies, public services, prices, places, events and doctors from public data. Read-only, no account or API key.",
+    "description": "Headcount Labs MCP servers: jobs, companies, public services, prices, places, events and doctors from public data, one plugin per index plus one plugin with all of them. Read-only, no account or API key.",
     "version": "1.0.0"
   },
   "plugins": [
+    {
+      "name": "headcountlabs-all",
+      "source": "headcountlabs-all",
+      "description": "Every Headcount Labs index through one MCP server: current job postings with live counts and pay ranges, U.S. companies with parent and subsidiary links, public services and government programs, grocery products and prices, places with hours, public events, doctors and Medicare facilities, and inspections, in one connection with 54 tools. Use this instead of installing the single-index plugins one by one. Every record links to its source. Read-only, no account or API key."
+    },
     {
       "name": "headcountlabs-job-search",
       "source": "headcountlabs-job-search",
