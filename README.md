@@ -15,3 +15,9 @@ Seven read-only MCP servers built on public data. None needs an account or API k
 Each folder holds a `.cursor-plugin/plugin.json` manifest and an `mcp.json` that points at the hosted server. The server code is not in this repository.
 
 Website: https://headcountlabs.com
+
+## Terms and privacy
+
+- Terms of service: https://headcountlabs.com/terms/
+- Privacy policy: https://headcountlabs.com/privacy/
+- Support: charlestang@headcountlabs.com

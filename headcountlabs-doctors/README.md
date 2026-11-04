@@ -7,3 +7,9 @@ MCP server (Streamable HTTP, no account or API key): `https://doctors-mcp.headco
 ## Try it
 
 No auth needed (keyless, read-only). 1) find_doctors {"lat":41.8781,"lon":-87.6298,"radius_m":2000,"specialty":"pediatrician","limit":2} -> clinicians in downtown Chicago, nearest first, with NPI, address and phone. 2) get_doctor {"npi":"1710980339"} -> LOUIS HIOTIS, MD, internal and pediatric medicine. 3) find_facilities {"q":"Mayo Clinic","state":"MN","limit":2} -> Medicare-certified facilities such as MAYO CLINIC HEALTH SYSTEM - LAKE CITY (nursing home, 90 beds).
+
+## Terms and privacy
+
+- Terms of service: https://headcountlabs.com/terms/
+- Privacy policy: https://headcountlabs.com/privacy/
+- Support: charlestang@headcountlabs.com

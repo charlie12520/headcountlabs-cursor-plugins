@@ -7,3 +7,9 @@ MCP server (Streamable HTTP, no account or API key): `https://events-mcp.headcou
 ## Try it
 
 No auth needed (keyless, read-only). Results depend on the date. 1) event_counts {"city":"chicago","when":"next_7_days"} -> total, free and per-category counts for Chicago this week (about 150 to 250). 2) find_events {"city":"san francisco","when":"this_weekend","is_free":true,"limit":3} -> free SF events this weekend, soonest first, with start time and source URL. 3) get_event with an id from step 2 -> the event details: time, price and source link, plus venue and organizer when known.
+
+## Terms and privacy
+
+- Terms of service: https://headcountlabs.com/terms/
+- Privacy policy: https://headcountlabs.com/privacy/
+- Support: charlestang@headcountlabs.com

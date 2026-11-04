@@ -7,3 +7,9 @@ MCP server (Streamable HTTP, no account or API key): `https://public-services-mc
 ## Try it
 
 No auth needed (keyless, read-only). 1) find_services {"lat":40.7128,"lon":-74.006,"radius_m":2000,"limit":3} -> service sites in Lower Manhattan, nearest first, such as a SNAP retailer and the Food Pantry at Pace University, with address and phone when known. 2) service_counts {"lat":40.7128,"lon":-74.006,"radius_m":2000} -> site totals by category (seniors, food, health...). 3) get_program {"assistance_listing":"10.551"} -> Supplemental Nutrition Assistance Program (SNAP) with summary and eligibility.
+
+## Terms and privacy
+
+- Terms of service: https://headcountlabs.com/terms/
+- Privacy policy: https://headcountlabs.com/privacy/
+- Support: charlestang@headcountlabs.com
